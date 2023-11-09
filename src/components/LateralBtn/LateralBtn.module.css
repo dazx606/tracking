@@ -1,0 +1,30 @@
+.btn {
+    display: flex;
+    width: 70%;
+    border-radius: 5px;
+    margin: 10px auto;
+    align-items: center;
+    padding-left: 15px;
+    padding-block: 3px;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: #C0DAEF;
+}
+
+.image {
+    padding: 0;
+    margin: 0;
+    width: 18px;
+    height: 18px;
+}
+
+.text {
+    font-size: 17px;
+    font-weight: 600;
+    padding-left: 1ch;
+    color: #86BDE6
+}
+
+/* Asegúrate de que '.img' y '.text' estén dentro de '.btn' en tu código JSX */

@@ -1,0 +1,23 @@
+.content {
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 20px;
+    padding-block: 10px;
+    height: 50px;
+}
+
+.img {
+    padding: 10px;
+    margin: 0;
+    width: 22px;
+    border-radius: 100px;
+    background-color: #e5e5e6
+}
+
+.img:hover {
+    cursor: pointer;
+    background-color: #86BDE6
+}

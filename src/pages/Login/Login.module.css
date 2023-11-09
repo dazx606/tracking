@@ -1,0 +1,17 @@
+.container {
+    background-color: #FF4D4D;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100vh;
+
+}
+
+.logo {
+    justify-self: center;
+    align-self: center;
+}
+
+.login {
+    justify-self: center;
+    align-self: center;
+}

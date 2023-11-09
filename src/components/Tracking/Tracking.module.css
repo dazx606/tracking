@@ -1,0 +1,6 @@
+.content {
+    background-color: white;
+    height: calc(100% - 30px);
+    border-radius: 5px;
+    padding: 15px;
+}

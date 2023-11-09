@@ -1,0 +1,91 @@
+.content {
+    height: 100%;
+    display: grid;
+    gap: 10px;
+    max-height: 100%;
+    grid-template-columns: 70% 1fr;
+    grid-template-rows: auto auto 1fr;
+    grid-template-areas:
+        "img1 img2"
+        "img1 img3"
+        "cont cont";
+    
+}
+
+.img1 {
+    grid-area: img1;
+    background-color: white;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.img2 {
+    padding: 15px;
+    grid-area: img2;
+    background-color: white;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.img3 {
+    padding: 15px;
+    grid-area: img3;
+    background-color: white;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.img1>img {
+    width: 85%;
+}
+
+.img2>img {
+    width: 60%;
+}
+
+.img3>img {
+    width: 40%;
+}
+
+.img2 {
+    grid-area: img2;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.img3 {
+    grid-area: img3;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.cont {
+    padding: 10px;
+    grid-area: cont;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.th,
+.td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #DDD;
+}
+
+.tr:hover {
+    background-color:#C0DAEF
+}

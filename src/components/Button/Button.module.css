@@ -1,0 +1,26 @@
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 18ch;
+    background-color: #5F77F5;
+    border: none;
+    border-radius: 0.375rem;
+    font-size: 1.2rem;
+    color: white;
+    font-weight: bold;
+    max-height: 4.5ch;
+}
+
+
+.red {
+    background-color: var(--red);
+}
+
+.purple {
+    background-color: var(--purple);
+}
+
+.green {
+    background-color: var(--green);
+}

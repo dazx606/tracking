@@ -1,0 +1,32 @@
+.container {
+    height: calc(100% - 30px);
+    background-color: white;
+    border-radius: 5px;
+    padding: 15px;
+
+}
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 1.3rem;
+}
+
+.th,
+.td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #DDD;
+}
+
+.body .tr:hover {
+    background-color: #C0DAEF;
+    cursor: pointer;
+}
+
+
+.tableContainer{
+    height: 92%;
+    overflow: hidden;
+    overflow-y: scroll
+}
