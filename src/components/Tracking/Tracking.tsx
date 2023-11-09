@@ -21,7 +21,7 @@ export const Tracking = ({ orders }: Props) => {
 
 
       case 'En preparación':
-        return 25
+        return 40
 
       case 'En camino':
         return 75
