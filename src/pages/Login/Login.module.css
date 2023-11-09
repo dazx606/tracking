@@ -1,8 +1,11 @@
 .container {
-    background-color: #FF4D4D;
+    background-color: #7a7a7a;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 100vh;
+    box-shadow: -1px -1px 13px 1px rgba(0,0,0);
+    -webkit-box-shadow: -1px -1px 13px 1px rgba(0,0,0);
+    -moz-box-shadow: -1px -1px 13px 1px rgba(0,0,0);
 
 }
 
